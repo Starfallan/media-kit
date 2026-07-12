@@ -174,7 +174,13 @@ abstract class PlatformPlayer {
     );
   }
 
-  Future<ui.Image?>? screenshot() async {
+  Future<void> setSecondarySubtitleTrack(SubtitleTrack track) {
+    throw UnimplementedError(
+      '[PlatformPlayer.setSecondarySubtitleTrack] is not implemented',
+    );
+  }
+
+  Future<ui.Image?> screenshot() async {
     throw UnimplementedError('[PlatformPlayer.screenshot] is not implemented');
   }
 
