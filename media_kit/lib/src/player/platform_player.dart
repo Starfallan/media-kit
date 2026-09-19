@@ -180,10 +180,10 @@ abstract class PlatformPlayer {
     );
   }
 
-  Future<ui.Image?> screenshot() async {
+  Future<ui.Image?>? screenshot() async {
     throw UnimplementedError('[PlatformPlayer.screenshot] is not implemented');
   }
-
+  
   int get handle {
     throw UnimplementedError('[PlatformPlayer.handle] is not implemented');
   }
